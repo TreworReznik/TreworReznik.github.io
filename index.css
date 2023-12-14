@@ -16,6 +16,7 @@
         grid-template-columns:repeat(auto-fit,minmax(359px, 400px) );
     }
     .photo{
+        margin-top: 40px;
         max-width: 359px;
     }
 }
