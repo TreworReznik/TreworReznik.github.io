@@ -3,25 +3,13 @@
     max-height: 500px;
     border-radius: 6px;
 }
-
-@media screen and (max-width: 600px){
-
-    .photo {
-        min-width: 300px;
-        height: 400px;
-    }
-}
-@media screen and (max-width: 320px){
+@media screen and (max-width: 2400px){
     .container-grid {
-        display: block;
-
+        display: grid;
+        width: auto;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 600px));
+        grid-auto-rows: auto;
+        justify-content: center;
     }
 }
 
-.container-grid {
-    display: grid;
-    width: auto;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 500px));
-    grid-auto-rows: auto;
-    justify-content: center;
-}
