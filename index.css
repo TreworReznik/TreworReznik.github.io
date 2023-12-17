@@ -144,7 +144,7 @@ h3 {
     .left-cap {
         display: block;
     }
-    
+
     .education-block ul {
         padding: 0;
     }
@@ -165,7 +165,7 @@ h3 {
         display: block;
     }
     .contact {
-        padding-left: 20px;
+        padding: 0;
     }
     .education-block ul {
         padding: 0;
@@ -186,7 +186,7 @@ h3 {
         display: block;
     }
     .contact {
-        padding-left: 20px;
+        padding: 0;
     }
     .education-block ul {
         padding: 0;
